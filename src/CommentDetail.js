@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommentDetail = () => {
+const CommentDetail = (props) => {
   return (
     <div>
       <div className="comment" style={{ padding: "10px" }}>
@@ -9,7 +9,7 @@ const CommentDetail = () => {
         </a>
         <div className="content">
           <a href="/" className="author">
-            Sam
+            {props.author}
           </a>
           <div className="metadata">
             <span className="data"> Today at 6:00PM</span>
