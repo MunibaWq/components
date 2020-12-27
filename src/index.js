@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ApprovalCard from "./ApprovalCard";
 import CommentDetail from "./CommentDetail";
 
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard></ApprovalCard>
       <CommentDetail
         avatarImg="https://source.unsplash.com/random/3"
         author="Sam"
