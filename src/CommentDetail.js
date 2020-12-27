@@ -5,7 +5,7 @@ const CommentDetail = (props) => {
     <div>
       <div className="comment" style={{ padding: "10px" }}>
         <a href="/" className="avatar">
-          <img alt="avatar" src={props.imageSrc} />
+          <img alt="avatar" src={props.avatarImg} />
         </a>
         <div className="content">
           <a href="/" className="author">
@@ -14,7 +14,7 @@ const CommentDetail = (props) => {
           <div className="metadata">
             <span className="data"> {props.timeAgo}</span>
           </div>
-          <div className="text">{props.commentPost}</div>
+          <div className="text">{props.content}</div>
         </div>
       </div>
     </div>

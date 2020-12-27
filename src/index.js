@@ -6,22 +6,22 @@ const App = () => {
   return (
     <div className="ui container comments">
       <CommentDetail
-        imageSrc="https://source.unsplash.com/random"
+        avatarImg="https://source.unsplash.com/random/3"
         author="Sam"
         timeAgo="Today at 4:45PM"
-        commentPost="Hey!"
+        content="Hey!"
       />
       <CommentDetail
-        imageSrc="https://source.unsplash.com/random"
+        avatarImg="https://source.unsplash.com/random/2"
         author="Alex"
         timeAgo="Today at 10:45PM"
-        commentPost="GOODBYE!"
+        content="GOODBYE!"
       />
       <CommentDetail
-        imageSrc="https://source.unsplash.com/random"
+        avatarImg="https://source.unsplash.com/random/1"
         author="Jane"
         timeAgo="Today at 11:45PM"
-        commentPost="VIOLA!!!"
+        content="VIOLA!!!"
       />
     </div>
   );
