@@ -3,7 +3,7 @@ import React from "react";
 const CommentDetail = () => {
   return (
     <div>
-      <div className="comment">
+      <div className="comment" style={{ padding: "10px" }}>
         <a href="/" className="avatar">
           <img alt="avatar" src="https://source.unsplash.com/random" />
         </a>
