@@ -5,16 +5,16 @@ const CommentDetail = (props) => {
     <div>
       <div className="comment" style={{ padding: "10px" }}>
         <a href="/" className="avatar">
-          <img alt="avatar" src="https://source.unsplash.com/random" />
+          <img alt="avatar" src={props.imageSrc} />
         </a>
         <div className="content">
           <a href="/" className="author">
             {props.author}
           </a>
           <div className="metadata">
-            <span className="data"> Today at 6:00PM</span>
+            <span className="data"> {props.timeAgo}</span>
           </div>
-          <div className="text">Nice blog post!</div>
+          <div className="text">{props.commentPost}</div>
         </div>
       </div>
     </div>
